@@ -18,7 +18,7 @@ def index():
         income = request.form.get("income")
         age = request.form.get("age")
         loan = request.form.get("loan")
-        print(income,age,default)
+        print(income,age,loan)
         income = float(income)
         age = float(age)
         loan = float(loan)
